@@ -11,5 +11,6 @@ while opcao>0 and opcao<4:
     elif opcao==3:
         resultado=exibir()
         for linha in resultado:
-            print(linha[4:-1])
+            print(linha[linha.find(";")+1:-1]) # Encontra o primero ";" e apresenta o conteúdo a partir dele,
+            #considerando iniciando na posição zero.
     opcao=chamarMenu()
