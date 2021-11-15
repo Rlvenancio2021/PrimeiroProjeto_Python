@@ -1,4 +1,4 @@
-from PrimeiroProjeto.Funcoes.Funcoes_Arquivos import *
+from Funcoes.Funcoes_Arquivos import *
 
 inventario={}
 opcao=chamarMenu()
